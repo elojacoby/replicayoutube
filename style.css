@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.body{
+    font-family: 'Roboto', 'Arial', 'sans-serif';
+}
+
+.img-canal{
+    width: 36px;
+    border-radius: 50%;
+
+}
+
+.caixa-textos{
+    font-size: 12px;
+    display: flex; 
+    flex-direction: column;
+    gap:6px;
+
+}
+.caixa-titulo{
+    color: #0F0F0F;
+    font-weight: 700;
+    font-size: 16px
+}
+
+.caixa-descricao{
+    color: #696969;
+    font-size: 13px;
+}
+
+.img-capa{
+    width: 320px;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.caixa-info{
+    display: flex;
+    gap:10px;
+    align-items: flex-start;
+    
+}
+.caixa-video{
+    width: 320px;
+    
+}
+.caixa-videos{
+    display: flex;
+    column-gap:20px;
+    row-gap:50px;
+    flex-wrap: wrap;
+
+}
+.img_aovivo{
+    width: 20px;
+    height: 20px;
+    fill:#F8F8FF;
+    
+}
+.caixa-aovivo{
+    display: flex;
+    gap: 6px;
+    background-color: #FF0000;
+    padding: 2px 8px 1px 2px;
+    border-radius: 3px;
+    color: #F8F8FF;
+    width: max-content;
+    fill:#F8F8FF;
+
+}
