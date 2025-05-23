@@ -7,6 +7,8 @@
 
 .body{
     font-family: 'Roboto', 'Arial', 'sans-serif';
+    color:#0F0F0F;
+    font-size: 14px;
 }
 
 .img-canal{
@@ -23,16 +25,15 @@
 
 }
 .caixa-titulo{
-    color: #0F0F0F;
     font-weight: 700;
-    font-size: 16px
+    font-size: 16px;
+    color:#0F0F0F;
 }
 
 .caixa-descricao{
     color: #696969;
-    font-size: 13px;
+    
 }
-
 .img-capa{
     width: 320px;
     height: 200px;
@@ -72,5 +73,62 @@
     color: #F8F8FF;
     width: max-content;
     fill:#F8F8FF;
+
+}
+
+a{
+     text-decoration: none; 
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.categorias{
+    display: flex;
+    gap:8px;
+}
+
+.categoria{
+    font-size: inherit;
+    font-family: inherit;
+    border-radius: 8px;
+    background-color: #0000000d;
+    padding: 6px 10px 6px;
+    border: none;
+    cursor: pointer;
+}
+.categoria.selecionado{
+   background-color: #0F0F0F;
+   color:#F8F8FF;
+}
+
+.principal{
+    display: flex;
+    gap:30px
+}
+.menu-lateral{
+    min-width: 240px;
+    
+}
+
+.icone{
+    width: 20px;
+    height: 20px;
+}
+
+.bloco-item{
+    display: flex;
+    border-radius: 12px;
+    padding: 10px 20px;
+    align-items: center;
+    gap:20px;
+    color:#0F0F0F;
+    margin-left: 15px;
+    
+}
+.bloco-item.selecionado{
+    background-color: #0000000d ;
 
 }
