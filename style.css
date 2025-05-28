@@ -117,7 +117,10 @@ a{
     width: 20px;
     height: 20px;
 }
-
+.menu-bloco{
+    border-bottom:1px solid rgb(202, 195, 195);
+    padding: 12px;
+}
 .bloco-item{
     display: flex;
     border-radius: 12px;
